@@ -44,4 +44,3 @@ def load_brain_mri_scans(dataset_path: Path, class_name: str) -> list[BrainMRISc
         )
         dataset.append(brain_mri_scan)
     return dataset
-
